@@ -14,7 +14,6 @@
 // VERSION. TO FIND THE FULL TEXT OF THE LICENSE GO TO THE GNU.ORG   /
 // WEBSITE AT ( https://www.gnu.org/licenses/gpl-3.0.html ).         /
 /////////////////////////////////////////////////////////////////////
-
 // ==UserScript==
 // @name           instagram to bibliogram
 // @namespace      Zera's userscripts
@@ -24,8 +23,7 @@
 // @match          https://www.instagram.com/*
 // @run-at         document-start
 // ==/UserScript==
-
 url = location.href
 url = url.replace(/\bwww\.\b/, "")
-url = url.replace("instagram.com","bibliogram.art")
+url = url.replace("instagram.com","bibliogram.art/u")
 location.href = url
