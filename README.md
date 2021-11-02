@@ -60,11 +60,11 @@ These scripts don't require coding knowledge to understand what they do. All you
 // ==UserScript==
 // @name           YouTube to Invidous
 ```
-1. Then there is a @namespace write that YOU made this script. If you make a PR with some interesting modification to the script I will try to keep your name and other contributers on it.
+2. Then there is a @namespace write that YOU made this script. If you make a PR with some interesting modification to the script I will try to keep your name and other contributers on it.
 ```javascript
 // @namespace      Troler's Youtubvious
 ```
-1. @match, these are a bunch of edge cases where you type a weird url. We don't want the weird url to make you go to the privacy disrespecting site so we list it as something we want the script to run on.
+3. @match, these are a bunch of edge cases where you type a weird url. We don't want the weird url to make you go to the privacy disrespecting site so we list it as something we want the script to run on.
 ```javascript
 // @match          http://youtube.com/*
 // @match          https://youtube.com/*
@@ -72,7 +72,7 @@ These scripts don't require coding knowledge to understand what they do. All you
 // @match          https://www.youtube.com/*
 // @run-at         document-start
 ```
-1. Then there is a big block of code this where the majic happens. Just put the first link eg. <youtube.com> to something you want to replace in the second link eg. <vid.puffyan.us> .
+4. Then there is a big block of code this where the majic happens. Just put the first link eg. <youtube.com> to something you want to replace in the second link eg. <vid.puffyan.us> .
 ```javascript
 // ==/UserScript==
 url = location.href
