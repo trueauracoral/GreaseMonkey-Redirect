@@ -2,7 +2,7 @@
 //                                                                   /
 // DESCRIPTION:                                                      /
 // This is a file that after installing a greasemonkey extension can /
-// be used to convert youtube.com to any invidious instance.         /
+// be used to convert twitter.com to any nitter instance.            /
 // NOTE: I might change this really often because instances may fail./
 // variables.                                                        /
 //                                                                   /
