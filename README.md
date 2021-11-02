@@ -81,4 +81,4 @@ url = url.replace("youtube.com","vid.puffyan.us")
 location.href = url
 ```
 
-I hope those that contribute and help maintaine these scripts have great times with them. As the web changes, so should we.
+I hope those that contribute and help maintain these scripts have great times with them. As the web changes, so should we.
