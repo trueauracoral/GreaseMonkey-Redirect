@@ -18,10 +18,10 @@
 // ==UserScript==
 // @name           instagram to bibliogram
 // @namespace      Zera's userscripts
-// @match          http://odysee.com/*
-// @match          https://odysee.com/*
-// @match          http://www.odysee.com/*
-// @match          https://www.odysee.com/*
+// @match          http://instagram.com/*
+// @match          https://instagram.com/*
+// @match          http://www.instagram.com/*
+// @match          https://www.instagram.com/*
 // @run-at         document-start
 // ==/UserScript==
 
