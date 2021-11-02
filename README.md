@@ -6,21 +6,26 @@ This is a collection of user created GreaseMonkey scripts that will convert priv
 There are many awful websites on the internet. That's why there have been many projects that allow us to still make use of them but in a more privacy respecting way. Also it gives you the ability to customize to your heart's content.
 
 ## Projects
-Nitter a alternative to Twitter.
+
+### Nitter a alternative to Twitter.
 
 <https://github.com/zedeus/nitter> Please disable all javascript when visiting this site.
 
-Invidious a alternative to youtube.
+### Invidious a alternative to youtube.
 
 <https://github.com/iv-org/invidious>  Please disable all javascript when visiting this site.
 
-Teddit is a alternative to reddit.
+### Teddit is a alternative to reddit.
 
 <https://codeberg.org/teddit/teddit> This one you don't have to disable javascript.
 
-Librarian is a alternative to odysee.
+### Librarian is a alternative to odysee.
 
 <https://librarian.bcow.xyz> This one you don't have to disable javascript.
+
+### Bibliogram is a alternative to instagram.
+
+<https://sr.ht/~cadence/bibliogram/> This one you don't have to disable javascript.
 
 ## Scripts here?
 These aim to acheive what something like privacy redirect will. All these do is change your URL's domain to a different one.
