@@ -6,7 +6,7 @@
 //                                                                      /
 // LISCENSE INFO (A dedicated liscense file is in the repo.):           /
 //      ALL THE CODE IN THIS REPOSITORY INCLUDING THIS FILE IS          /
-// (C) Troler Jeans and Other Contributors 2021.                        /
+// (C) Vertbyqb and Other Contributors 2021.                            /
 // YOU CAN USE THIS FILE AND ANY OTHER FILE IN THIS REPOSITORY UNDER    /
 // THE TERMS OF GNU GENERAL PUBLIC LICENSE VERSION 3 OR ANY LATER       /
 // VERSION. TO FIND THE FULL TEXT OF THE LICENSE GO TO THE GNU.ORG      /
@@ -21,5 +21,5 @@
 // ==/UserScript==
 url = location.href
 url = url.replace(/\bwww\.\b/, "")
-url = url.replace("translate.google.com","translate.metalune.xyz")
+url = url.replace("translate.google.com","simplytranslate.org")
 location.href = url
