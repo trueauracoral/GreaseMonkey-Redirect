@@ -15,7 +15,7 @@
 // WEBSITE AT ( https://www.gnu.org/licenses/gpl-3.0.html ).         /
 /////////////////////////////////////////////////////////////////////
 // ==UserScript==
-// @name           YouTube to Invidous
+// @name           yewtube to invidious
 // @namespace      Zera's anti yewtu.be script
 // @match          http://yewtu.be/*
 // @match          https://yewtu.be/*
