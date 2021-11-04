@@ -25,5 +25,5 @@
 // ==/UserScript==
 url = location.href
 url = url.replace(/\bwww\.\b/, "")
-url = url.replace("yewtu.be","invidio.xamh.de")
+url = url.replace("yewtu.be/feed/popular","invidio.xamh.de")
 location.href = url
