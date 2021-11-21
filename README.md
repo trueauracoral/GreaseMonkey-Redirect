@@ -1,75 +1,88 @@
 # GreaseMonkey-Redirect
 
-This is a collection of user created GreaseMonkey scripts that will convert privacy disrespecting websites to FOSS/Libre alternatives.
+This is a collection of user created GreaseMonkey scripts that will convert privacy disrespecting websites to FOSS/Libre libre frontends to proprietary (dis)services.
 
 ## Why?
 There are many awful websites on the internet. That's why there have been many projects that allow us to still make use of them but in a more privacy respecting way. Also it gives you the ability to customize to your heart's content.
 
 ## Projects
 
-### Nitter a alternative to Twitter.
+*WARNING: Some of these projects are hosted on Github, which uses proprietary JavaScript. Fortunately, it is not necessary to view the project.*
 
-<https://github.com/zedeus/nitter> Please disable all javascript when visiting this site.
+### Nitter, a libre frontend to Twitter.
 
-### Invidious a alternative to youtube.
+<https://github.com/zedeus/nitter> 
 
-<https://github.com/iv-org/invidious>  Please disable all javascript when visiting this site.
+### Invidious, a libre frontend to Youtube.
 
-### Teddit is a alternative to reddit.
+<https://github.com/iv-org/invidious>
 
-<https://codeberg.org/teddit/teddit> This one you don't have to disable javascript.
+### Teddit, a libre frontend to Reddit.
 
-### Librarian is a alternative to odysee.
+<https://codeberg.org/teddit/teddit> 
 
-<https://librarian.bcow.xyz> This one you don't have to disable javascript.
+### Librarian, a libre frontend to Odysee.
 
-### Bibliogram is a alternative to instagram.
+<https://librarian.bcow.xyz> 
 
-<https://sr.ht/~cadence/bibliogram/> This one you don't have to disable javascript.
+### Bibliogram, a libre frontend to Instagram.
+
+<https://sr.ht/~cadence/bibliogram/> 
+
+### Simply Translate, a libre frontend to Google Translate and other translation SaaSS.
+
+<https://simplytranslate.org/>
 
 ## Scripts here?
-These aim to acheive what something like privacy redirect will. All these do is change your URL's domain to a different one.
+These aim to acheive what something like privacy redirect does. All these do is change your URL's domain to a different one.
 
-You could be using privacy redirect. But this is a fun do it yourself project to make fun of bad privacy disrespecting websites.
+You could be using privacy redirect. But this is a fun do-it-yourself project to make fun of bad privacy disrespecting websites.
 
 ## WARNING!?@?!
-These scripts will probably change maybe even break sometimes because instances of these websites will break from user load causing servers to crash. This is why these websites have multiple instances. So at less a instance get's unmaintained or unuseable for some reason probably your prefered instance won't be used in these scripts
+These scripts will may break sometimes because instances of these websites will break from user load causing servers to crash. This is why these websites have multiple instances. If an instance breaks you can easily replace it with a different instance.
 
 ### NOT TO FEAR!
 These scripts don't require coding knowledge to understand what they do. All you have to do to modify them is understand this.
 
 1. Description of what the script does
 ```javascript
-/////////////////////////////////////////////////////////////////////
-//                                                                   /
-// DESCRIPTION:                                                      /
-// This is a file that after installing a greasemonkey extension can /
-// be used to convert youtube.com to any invidious instance.         /
-// NOTE: I might change this really often because instances may fail./
-// variables.                                                        /
+/*
+DESCRIPTION:
+This is a file that after installing a greasemonkey extension can
+be used to convert youtube.com to any invidious instance.
+NOTE: I might change this really often because instances may fail.
 ```
+
 2. This is the license
 ```javascript
-//                                                                   /
-// LISCENSE INFO (A dedicated liscense file is in the repo.):        /
-//      ALL THE CODE IN THIS REPOSITORY INCLUDING THIS FILE IS       /
-// (C) Troler Jeans and Other Contributors 2021.                     /
-// YOU CAN USE THIS FILE AND ANY OTHER FILE IN THIS REPOSITORY UNDER /
-// THE TERMS OF GNU GENERAL PUBLIC LICENSE VERSION 3 OR ANY LATER    /
-// VERSION. TO FIND THE FULL TEXT OF THE LICENSE GO TO THE GNU.ORG   /
-// WEBSITE AT ( https://www.gnu.org/licenses/gpl-3.0.html ).         /
-/////////////////////////////////////////////////////////////////////
+Copyright (C) 2021 Troler Jeans and other contributors
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or (at
+your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+*/
 ```
-3. Still commented in a place after that is a @name this is the name of the script.
+
+3. The name of the script
 ```javascript
 // ==UserScript==
 // @name           YouTube to Invidous
 ```
+
 4. Then there is a @namespace write that YOU made this script. If you make a PR with some interesting modification to the script I will try to keep your name and other contributers on it.
 ```javascript
 // @namespace      Troler's Youtubvious
 ```
-5. @match, these are a bunch url's which are there in case a person sends you a http link instead of https or a link with www. Change these for the code to the website your trying to redict from (leave it if you are only changing the instance.)
+5. The websites the code will apply to, including `http` and `www` variants. Change these in your code to the website your trying to redirect from (leave it if you are only changing the instance).
 ```javascript
 // @match          http://youtube.com/*
 // @match          https://youtube.com/*
@@ -77,7 +90,8 @@ These scripts don't require coding knowledge to understand what they do. All you
 // @match          https://www.youtube.com/*
 // @run-at         document-start
 ```
-6. Then there is a big block of code this where the majic happens. Just put the first link eg. <youtube.com> to something you want to replace in the second link eg. <vid.puffyan.us> .
+
+6. Then there is a big block of code this where the magic happens. Just change the link, e.g. <youtube.com>, to something you want to replace it with, e.g. <vid.puffyan.us>.
 ```javascript
 // ==/UserScript==
 url = location.href
