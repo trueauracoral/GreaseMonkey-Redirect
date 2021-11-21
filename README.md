@@ -1,17 +1,17 @@
 # GreaseMonkey-Redirect
 
-This is a collection of user created GreaseMonkey scripts that will convert privacy disrespecting websites to FOSS/Libre libre frontends to proprietary (dis)services.
+This is a collection of user created GreaseMonkey scripts that will convert privacy disrespecting websites to FLOSS frontends.
 
 ## Why?
 There are many awful websites on the internet. That's why there have been many projects that allow us to still make use of them but in a more privacy respecting way. Also it gives you the ability to customize to your heart's content.
 
 ## Projects
 
-*WARNING: Some of these projects are hosted on Github, which uses proprietary JavaScript. Fortunately, it is not necessary to view the project.*
+*WARNING: Some of these projects are hosted on Github, which uses proprietary JavaScript. Fortunately, it is not necessary to view repositories, so you can disable it.*
 
 ### Nitter, a libre frontend to Twitter.
 
-<https://github.com/zedeus/nitter> 
+<https://github.com/zedeus/nitter>
 
 ### Invidious, a libre frontend to Youtube.
 
@@ -19,15 +19,15 @@ There are many awful websites on the internet. That's why there have been many p
 
 ### Teddit, a libre frontend to Reddit.
 
-<https://codeberg.org/teddit/teddit> 
+<https://codeberg.org/teddit/teddit>
 
 ### Librarian, a libre frontend to Odysee.
 
-<https://librarian.bcow.xyz> 
+<https://librarian.bcow.xyz>
 
 ### Bibliogram, a libre frontend to Instagram.
 
-<https://sr.ht/~cadence/bibliogram/> 
+<https://sr.ht/~cadence/bibliogram/>
 
 ### Simply Translate, a libre frontend to Google Translate and other translation SaaSS.
 
