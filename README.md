@@ -23,7 +23,7 @@ There are many awful websites on the internet. That's why there have been many p
 
 ### Librarian, a libre frontend to Odysee.
 
-<https://librarian.bcow.xyz>
+<https://codeberg.org/imabritishcow/librarian>
 
 ### Bibliogram, a libre frontend to Instagram.
 
@@ -31,7 +31,7 @@ There are many awful websites on the internet. That's why there have been many p
 
 ### Simply Translate, a libre frontend to Google Translate and other translation SaaSS.
 
-<https://simplytranslate.org/>
+<https://git.sr.ht/~metalune/simplytranslate_web>
 
 ## Scripts here?
 These aim to acheive what something like privacy redirect does. All these do is change your URL's domain to a different one.
