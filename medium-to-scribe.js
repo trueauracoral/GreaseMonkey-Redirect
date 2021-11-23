@@ -1,12 +1,10 @@
 /*
 DESCRIPTION: This is a file that after installing a greasemonkey
-extension can be used to convert yewtu.be to any other invidious
-instance.
-NOTE: I might change this really often because instances may fail.
+extension can be used to convert Medium blogs to a Scribe link.
 
 ----
 
-Copyright (C) 2021 Zortazert and other contributors
+Copyright (C) 2021 Vertbyqb and other contributors
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -23,15 +21,15 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 */
 
 // ==UserScript==
-// @name           yewtube to invidious
-// @namespace      Zera's anti yewtu.be script
-// @match          http://yewtu.be/*
-// @match          https://yewtu.be/*
-// @match          http://yewtu.be/*
-// @match          https://yewtu.be/*
+// @name           Medium to Scribe
+// @namespace      Vertbyqb's userscripts
+// @match          http://medium.com/@*/*
+// @match          https://medium.com/@*/*
+// @match          http://www.medium.com/@*/*
+// @match          https://www.medium.com/@*/*
 // @run-at         document-start
 // ==/UserScript==
 url = location.href
 url = url.replace(/\bwww\.\b/, "")
-url = url.replace("yewtu.be/feed/popular","invidio.xamh.de")
+url = url.replace("medium.com","scribe.rip")
 location.href = url
