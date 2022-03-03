@@ -26,6 +26,8 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 // @namespace      Zera's userscripts
 // @match          http://imgur.com/*
 // @match          https://imgur.com/*
+// @match          http://i.imgur.com/*
+// @match          https://i.imgur.com/*
 // @match          http://www.imgur.com/*
 // @match          https://www.imgur.com/*
 // @grant          none
@@ -33,5 +35,11 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 // ==/UserScript==
 url = location.href
 url = url.replace(/\bwww\.\b/, "")
-url = url.replace("imgur.com","rimgo.bcow.xyz")
-location.href = url
+if (url.includes("i.imgur.com")){
+  url = url.replace("i.imgur.com","i.bcow.xyz")
+  location.href = url
+}
+else{
+  url = url.replace("imgur.com","rimgo.bcow.xyz")
+  location.href = url
+}
