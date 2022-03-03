@@ -2,55 +2,55 @@
 
 This is a collection of user created GreaseMonkey scripts that will convert privacy disrespecting websites to FLOSS frontends.
 
-## Why?
+# Why?
 There are many awful websites on the internet. That's why there have been many projects that allow us to still make use of them but in a more privacy respecting way. Also it gives you the ability to customize to your heart's content.
 
-## Projects
+# Projects
 
 *WARNING: Some of these projects are hosted on Github, which uses proprietary JavaScript. Fortunately, it is not necessary to view repositories, so you can disable it.*
 
-### Nitter, a libre frontend to Twitter.
+## Nitter, a libre frontend to Twitter.
 
 <https://github.com/zedeus/nitter>
 
-### Invidious, a libre frontend to Youtube.
+## Invidious, a libre frontend to Youtube.
 
 <https://github.com/iv-org/invidious>
 
-### Teddit, a libre frontend to Reddit.
+## Teddit, a libre frontend to Reddit.
 
 <https://codeberg.org/teddit/teddit>
 
-### Librarian, a libre frontend to Odysee.
+## Librarian, a libre frontend to Odysee.
 
 <https://codeberg.org/imabritishcow/librarian>
 
-### Bibliogram, a libre frontend to Instagram.
+## Bibliogram, a libre frontend to Instagram.
 
 <https://sr.ht/~cadence/bibliogram/>
 
-### Simply Translate, a libre frontend to Google Translate and other translation SaaSS.
+## Simply Translate, a libre frontend to Google Translate and other translation SaaSS.
 
 <https://git.sr.ht/~metalune/simplytranslate_web>
 
-### ProxiTok, a libre frontend to tiktok.
+## ProxiTok, a libre frontend to tiktok.
 
 <https://github.com/pablouser1/ProxiTok>
 
-### Rimgo, a libre frontend to imgur.
+## Rimgo, a libre frontend to imgur.
 
 <https://codeberg.org/video-prize-ranch/rimgo>
 
-## Scripts here?
+# Scripts here?
 These aim to acheive what something like privacy redirect does. All these do is change your URL's domain to a different one.
 
 You could be using privacy redirect. But this is a fun do-it-yourself project to make fun of bad privacy disrespecting websites.
 
-## WARNING!?@?!
+# WARNING!?@?!
 These scripts will may break sometimes because instances of these websites will break from user load causing servers to crash. This is why these websites have multiple instances. If an instance breaks you can easily replace it with a different instance.
 
-### NOT TO FEAR!
-These scripts don't require coding knowledge to understand what they do. All you have to do to modify them is understand this.
+## NOT TO FEAR!
+These scripts don't require coding knowledge to understand what they do. All you have to do to modify them is understand this. This is a script example to show you how they work. Some scripts might be more complicated than others.
 
 1. Description of what the script does
 ```javascript
@@ -108,4 +108,9 @@ url = url.replace("youtube.com","vid.puffyan.us")
 location.href = url
 ```
 
+# Contribute
 I hope those that contribute and help maintain these scripts have great times with them. As the web changes, so should we.
+
+# Contact me
+- Email: zortazert@matthewevan.xyz
+- Matrix: @zortazert:tchncs.de
