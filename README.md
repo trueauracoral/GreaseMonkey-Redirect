@@ -108,6 +108,12 @@ url = url.replace("youtube.com","vid.puffyan.us")
 location.href = url
 ```
 
+# Similar projects
+- https://codeberg.org/izzy/userscripts/src/branch/master/yt2invidio.user.js <br>
+Very well coded **MEGA** script for redirecting different websites to libre frontends. Redirections are done with a keyboard shortcut
+	- https://codeberg.org/ltGuillaume/yt2invidio/src/branch/master/yt2invidio.user.js <br>
+	Forked version where redirections are done automaticly.
+
 # Contribute
 I hope those that contribute and help maintain these scripts have great times with them. As the web changes, so should we.
 
