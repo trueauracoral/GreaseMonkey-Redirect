@@ -114,9 +114,13 @@ Very well coded **MEGA** script for redirecting different websites to libre fron
 	- https://codeberg.org/ltGuillaume/yt2invidio/src/branch/master/yt2invidio.user.js <br>
 	Forked version where redirections are done automaticly.
 
+## **Not** GreaseMonkey
+- https://github.com/libredirect/libredirect <br>
+A fork of Privacy-Redirect (seemingly dead project), for firefox browsers which supports a lot more proxy sites and is very active.
+
 # Contribute
 I hope those that contribute and help maintain these scripts have great times with them. As the web changes, so should we.
 
 # Contact me
 - Email: zortazert@matthewevan.xyz
-- Matrix: @zortazert:tchncs.de
+- Matrix: @trueauracoral:tchncs.de
