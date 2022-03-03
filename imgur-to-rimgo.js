@@ -1,6 +1,6 @@
 /*
 DESCRIPTION: This is a file that after installing a greasemonkey
-extension can be used to convert instagram.com to bibliogram.
+extension can be used to convert imgur to any rimgo instance.
 NOTE: I might change this really often because instances may fail.
 
 ----
