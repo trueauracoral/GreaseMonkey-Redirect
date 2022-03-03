@@ -33,9 +33,13 @@ There are many awful websites on the internet. That's why there have been many p
 
 <https://git.sr.ht/~metalune/simplytranslate_web>
 
-### Proxitok, a libre frontend to tiktok.
+### ProxiTok, a libre frontend to tiktok.
 
 <https://github.com/pablouser1/ProxiTok>
+
+### Rimgo, a libre frontend to imgur.
+
+<https://codeberg.org/video-prize-ranch/rimgo>
 
 ## Scripts here?
 These aim to acheive what something like privacy redirect does. All these do is change your URL's domain to a different one.
