@@ -3,6 +3,7 @@
 This is a collection of user created GreaseMonkey scripts that will convert privacy disrespecting websites to FLOSS frontends.
 
 # Why?
+
 There are many awful websites on the internet. That's why there have been many projects that allow us to still make use of them but in a more privacy respecting way. Also it gives you the ability to customize to your heart's content.
 
 # Projects
@@ -42,15 +43,16 @@ There are many awful websites on the internet. That's why there have been many p
 <https://codeberg.org/video-prize-ranch/rimgo>
 
 # Scripts here?
-These aim to acheive what something like privacy redirect does. All these do is change your URL's domain to a different one.
+These aim to acheive what something like Privacy-Redirect/Libredirect does. All these do is change your URL's domain to a different one.
 
-You could be using privacy redirect. But this is a fun do-it-yourself project to make fun of bad privacy disrespecting websites.
+You could be using Privacy-Redirect/Libredirect. But this is a fun DIY (do-it-yourself) project to make fun of bad privacy disrespecting websites.
 
-# WARNING!?@?!
-These scripts will may break sometimes because instances of these websites will break from user load causing servers to crash. This is why these websites have multiple instances. If an instance breaks you can easily replace it with a different instance.
+# WARNING!
+These scripts will may break sometimes because instances of these websites will break from user load or other issues causing servers to crash. This is why these websites have multiple instances. If an instance breaks you can easily replace it with a different instance.
 
-## NOT TO FEAR!
-These scripts don't require coding knowledge to understand what they do. All you have to do to modify them is understand this. This is a script example to show you how they work. Some scripts might be more complicated than others.
+## NOT TO FEAR! Just modify!
+These scripts don't require coding knowledge to understand what they do. However knowing a bit of JavaScript or maybe python can help. 
+This is a script example to show you how many of these scripts work. Some scripts might be more complicated than this example.
 
 1. Description of what the script does
 ```javascript
