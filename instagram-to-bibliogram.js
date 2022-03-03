@@ -28,9 +28,17 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 // @match          https://instagram.com/*
 // @match          http://www.instagram.com/*
 // @match          https://www.instagram.com/*
+// @grant          none
 // @run-at         document-start
 // ==/UserScript==
 url = location.href
 url = url.replace(/\bwww\.\b/, "")
-url = url.replace("instagram.com","bibliogram.art/u")
-location.href = url
+url = url.split('/')
+if (url[3] === "") {
+  url = "https://bibliogram.art"
+  location.href = url
+} 
+else {
+  url = "https://bibliogram.art/u/" + url[3]
+  location.href = url
+}
