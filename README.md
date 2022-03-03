@@ -24,7 +24,7 @@ There are many awful websites on the internet. That's why there have been many p
 
 ## Librarian, a libre frontend to Odysee.
 
-<https://codeberg.org/imabritishcow/librarian>
+<https://codeberg.org/librarian/librarian>
 
 ## Bibliogram, a libre frontend to Instagram.
 
