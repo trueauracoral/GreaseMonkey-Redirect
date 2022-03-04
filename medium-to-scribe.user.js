@@ -39,7 +39,6 @@ url = url.replace(/\bwww\.\b/, "")
 segment = url.split('/')
 const instances = ["medium.com", "codeburst.io", "uxdesign.cc"]
 if (instances.includes(segment[2])){
-  console.log("cowboy")
   url = "https://scribe.rip/" + segment[3] + "/" + segment[4]
   location.href = url
 }
