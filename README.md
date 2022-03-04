@@ -42,6 +42,10 @@ There are many awful websites on the internet. That's why there have been many p
 
 <https://codeberg.org/video-prize-ranch/rimgo>
 
+## Scribe, a librefrontend to medium websites.
+
+<https://git.sr.ht/~edwardloveall/scribe>
+
 # Scripts here?
 These aim to acheive what something like Privacy-Redirect/Libredirect does. All these do is change your URL's domain to a different one.
 
