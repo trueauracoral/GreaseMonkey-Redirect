@@ -10,41 +10,15 @@ There are many awful websites on the internet. That's why there have been many p
 
 *WARNING: Some of these projects are hosted on Github, which uses proprietary JavaScript. Fortunately, it is not necessary to view repositories, so you can disable it.*
 
-- Nitter, a libre frontend to Twitter. <br>
-
-<https://github.com/zedeus/nitter>
-
-- Invidious, a libre frontend to Youtube. <br>
-
-<https://github.com/iv-org/invidious>
-
-- Teddit, a libre frontend to Reddit. <br>
-
-<https://codeberg.org/teddit/teddit>
-
-- Librarian, a libre frontend to Odysee. <br>
-
-<https://codeberg.org/librarian/librarian>
-
-- Bibliogram, a libre frontend to Instagram. <br>
-
-<https://sr.ht/~cadence/bibliogram/>
-
-- Simply Translate, a libre frontend to Google Translate and other translation SaaSS. <br>
-
-<https://git.sr.ht/~metalune/simplytranslate_web>
-
-- ProxiTok, a libre frontend to tiktok. <br>
-
-<https://github.com/pablouser1/ProxiTok>
-
-- Rimgo, a libre frontend to imgur. <br>
-
-<https://codeberg.org/video-prize-ranch/rimgo>
-
-- Scribe, a librefrontend to medium websites. <br>
-
-<https://git.sr.ht/~edwardloveall/scribe>
+- [Nitter](https://github.com/zedeus/nitter), a libre frontend to Twitter.
+- [Invidious](https://github.com/iv-org/invidious), a libre frontend to Youtube.
+- [Teddit](https://codeberg.org/teddit/teddit), a libre frontend to Reddit.
+- [Librarian](https://codeberg.org/librarian/librarian), a libre frontend to Odysee.
+- [Bibliogram](https://sr.ht/~cadence/bibliogram/), a libre frontend to Instagram.
+- [Simply](https://git.sr.ht/~metalune/simplytranslate_web) Translate, a libre frontend to Google Translate and other translation SaaSS.
+- [ProxiTok](https://github.com/pablouser1/ProxiTok), a libre frontend to tiktok.
+- [Rimgo](https://codeberg.org/video-prize-ranch/rimgo), a libre frontend to imgur.
+- [Scribe](https://git.sr.ht/~edwardloveall/scribe), a librefrontend to medium websites.
 
 # Scripts here?
 These aim to acheive what something like Privacy-Redirect/Libredirect does. All these do is change your URL's domain to a different one.
