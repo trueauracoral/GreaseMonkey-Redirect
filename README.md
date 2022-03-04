@@ -10,39 +10,39 @@ There are many awful websites on the internet. That's why there have been many p
 
 *WARNING: Some of these projects are hosted on Github, which uses proprietary JavaScript. Fortunately, it is not necessary to view repositories, so you can disable it.*
 
-## Nitter, a libre frontend to Twitter.
+- Nitter, a libre frontend to Twitter. <br>
 
 <https://github.com/zedeus/nitter>
 
-## Invidious, a libre frontend to Youtube.
+- Invidious, a libre frontend to Youtube. <br>
 
 <https://github.com/iv-org/invidious>
 
-## Teddit, a libre frontend to Reddit.
+- Teddit, a libre frontend to Reddit. <br>
 
 <https://codeberg.org/teddit/teddit>
 
-## Librarian, a libre frontend to Odysee.
+- Librarian, a libre frontend to Odysee. <br>
 
 <https://codeberg.org/librarian/librarian>
 
-## Bibliogram, a libre frontend to Instagram.
+- Bibliogram, a libre frontend to Instagram. <br>
 
 <https://sr.ht/~cadence/bibliogram/>
 
-## Simply Translate, a libre frontend to Google Translate and other translation SaaSS.
+- Simply Translate, a libre frontend to Google Translate and other translation SaaSS. <br>
 
 <https://git.sr.ht/~metalune/simplytranslate_web>
 
-## ProxiTok, a libre frontend to tiktok.
+- ProxiTok, a libre frontend to tiktok. <br>
 
 <https://github.com/pablouser1/ProxiTok>
 
-## Rimgo, a libre frontend to imgur.
+- Rimgo, a libre frontend to imgur. <br>
 
 <https://codeberg.org/video-prize-ranch/rimgo>
 
-## Scribe, a librefrontend to medium websites.
+- Scribe, a librefrontend to medium websites. <br>
 
 <https://git.sr.ht/~edwardloveall/scribe>
 
