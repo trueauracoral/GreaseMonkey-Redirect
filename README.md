@@ -25,7 +25,7 @@ These aim to acheive what something like Privacy-Redirect/Libredirect does. All 
 
 You could be using Privacy-Redirect/Libredirect. But this is a fun DIY (do-it-yourself) project to make fun of bad privacy disrespecting websites.
 
-**Note:** This script will work the best in terms of privacy if using a plugin such as Ublock-Origin or other blocking methods. You block all JavaScript on privacy disrespecting websites.
+**Note:** This script will work the best in terms of privacy if using a plugin such as Ublock-Origin to block all JavaScript on privacy disrespecting websites.
 
 # WARNING!
 These scripts will may break sometimes because instances of these websites will break from user load or other issues causing servers to crash. This is why these websites have multiple instances. If an instance breaks you can easily replace it with a different instance.
