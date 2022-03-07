@@ -24,13 +24,18 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 // ==UserScript==
 // @name           Twitter to Nitter
 // @namespace      Zera's userscripts
-// @match          http://twitter.com/*
-// @match          https://twitter.com/*
-// @match          http://www.twitter.com/*
-// @match          https://www.twitter.com/*
+// @include        *twitter.com*
+// @grant          none
 // @run-at         document-start
 // ==/UserScript==
 url = location.href
 url = url.replace(/\bwww\.\b/, "")
-url = url.replace("twitter.com","nitter.42l.fr")
-location.href = url
+if (url.includes("mobile")){
+  url = url.replace("mobile.", "")
+  url = url.replace("twitter.com","nitter.42l.fr")
+  location.href = url
+}
+else{
+  url = url.replace("twitter.com","nitter.42l.fr")
+  location.href = url
+}
