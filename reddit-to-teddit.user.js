@@ -24,13 +24,17 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 // ==UserScript==
 // @name           Reddit to Teddit
 // @namespace      Zera's userscripts
-// @match          http://reddit.com/*
-// @match          https://reddit.com/*
-// @match          http://www.reddit.com/*
-// @match          https://www.reddit.com/*
+// @include        *reddit.com*
+// @grant          none
 // @run-at         document-start
 // ==/UserScript==
 url = location.href
 url = url.replace(/\bwww\.\b/, "")
-url = url.replace("reddit.com","teddit.net")
-location.href = url
+if (url.includes("old.reddit.com")){
+  url = url.replace("old.reddit.com","teddit.net")
+  location.href = url
+}
+else{
+  url = url.replace("reddit.com","teddit.net")
+  location.href = url
+}

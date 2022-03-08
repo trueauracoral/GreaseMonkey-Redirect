@@ -30,9 +30,8 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 // ==/UserScript==
 url = location.href
 url = url.replace(/\bwww\.\b/, "")
-if (url.includes("mobile")){
-  url = url.replace("mobile.", "")
-  url = url.replace("twitter.com","nitter.42l.fr")
+if (url.includes("mobile.twitter.com")){
+  url = url.replace("mobile.twitter.com","nitter.42l.fr")
   location.href = url
 }
 else{
