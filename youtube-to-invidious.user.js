@@ -33,14 +33,16 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 // @grant          none
 // @run-at         document-start
 // ==/UserScript==
+INVIDIOUS_INSTANCE = "invidio.xamh.de"
+
 url = location.href
 url = url.replace(/\bwww\.\b/, "")
 if (url.includes("music.youtube.com")){
-  url = url.replace("music.youtube.com","invidio.xamh.de")
+  url = url.replace("music.youtube.com",INVIDIOUS_INSTANCE)
   location.href = url
 }
 else{
-  url = url.replace("youtube.com","invidio.xamh.de")
+  url = url.replace("youtube.com",INVIDIOUS_INSTANCE)
   location.href = url
 }
 	
