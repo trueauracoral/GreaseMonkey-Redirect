@@ -29,9 +29,18 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 // @match          https://youtube.com/*
 // @match          http://www.youtube.com/*
 // @match          https://www.youtube.com/*
+// @match          https://music.youtube.com/*
+// @grant          none
 // @run-at         document-start
 // ==/UserScript==
 url = location.href
 url = url.replace(/\bwww\.\b/, "")
-url = url.replace("youtube.com","vid.puffyan.us")
-location.href = url
+if (url.includes("music.youtube.com")){
+  url = url.replace("music.youtube.com","invidio.xamh.de")
+  location.href = url
+}
+else{
+  url = url.replace("youtube.com","invidio.xamh.de")
+  location.href = url
+}
+	
