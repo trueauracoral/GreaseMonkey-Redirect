@@ -26,19 +26,15 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 // @include        *medium.com*
 // @include        *codeburst.io*
 // @include        *uxdesign.cc*
+// @include        *blog.devgenius.io*
+// @include        *towardsdatascience.com*
 // @grant          none
 // @run-at         document-start
 // ==/UserScript==
 
-// This works **best** for medium search results. Sort of works for
-// the medium homepage.  With in the instances array you can add
-// support for more medium websites. Also add another @include tag.
-
 url = location.href
 url = url.replace(/\bwww\.\b/, "")
-segment = url.split('/')
-const instances = ["medium.com", "codeburst.io", "uxdesign.cc"]
-if (instances.includes(segment[2])){
-  url = "https://scribe.rip/" + segment[3] + "/" + segment[4]
+if (window.location.href.includes(window.location.host)){
+  url = window.location.href.replace(window.location.host,"scribe.rip")
   location.href = url
 }

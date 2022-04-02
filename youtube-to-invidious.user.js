@@ -45,4 +45,3 @@ else{
   url = url.replace("youtube.com",INVIDIOUS_INSTANCE)
   location.href = url
 }
-	
