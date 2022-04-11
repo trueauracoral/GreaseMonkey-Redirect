@@ -28,6 +28,8 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 // @include        *uxdesign.cc*
 // @include        *blog.devgenius.io*
 // @include        *towardsdatascience.com*
+// @include        *betterprogramming.pub*
+// @include        *gitconnected.com*
 // @grant          none
 // @run-at         document-start
 // ==/UserScript==

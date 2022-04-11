@@ -1,10 +1,12 @@
 /*
-DESCRIPTION: This is a file that after installing a greasemonkey
-extension can be used to convert Medium blogs to a Scribe link.
+DESCRIPTION:
+This is a file that after installing a greasemonkey extension can
+be used to convert youtube.com to any invidious instance.
+NOTE: I might change this really often because instances may fail.
 
 ----
 
-Copyright (C) 2021 Vertbyqb and other contributors
+Copyright (C) 2021 ZortaZert and other contributors
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -21,22 +23,27 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 */
 
 // ==UserScript==
-// @name           Medium to Scribe
-// @namespace      Vertbyqb's userscripts
-// @include        *medium.com*
-// @include        *codeburst.io*
-// @include        *uxdesign.cc*
-// @include        *blog.devgenius.io*
-// @include        *towardsdatascience.com*
-// @include        *betterprogramming.pub*
-// @include        *gitconnected.com*
+// @name           Google to Librex
+// @namespace      Zera's google to librex
+// @match          http://google.com/*
+// @match          https://google.com/*
+// @match          http://www.google.com/*
+// @match          https://www.google.com/*
 // @grant          none
 // @run-at         document-start
 // ==/UserScript==
+LIBREX_INSTANCE = "search.davidovski.xyz"
 
 url = location.href
 url = url.replace(/\bwww\.\b/, "")
-if (window.location.href.includes(window.location.host)){
-  url = window.location.href.replace(window.location.host,"scribe.rip")
+// Search
+// https://www.google.com/search?q=paris
+// https://search.davidovski.xyz/search.php?q=test%20search
+if (url.includes("search")){
+  url = url.replace("google.com/search?q=",LIBREX_INSTANCE+"/search.php?q=")
+  location.href = url
+}
+else{
+  url = url.replace("google.com/search?q=",LIBREX_INSTANCE)
   location.href = url
 }
