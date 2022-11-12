@@ -32,14 +32,18 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 // @grant          none
 // @run-at         document-start
 // ==/UserScript==
+instance = "proxitok.pabloferreiro.es"
 url = location.href
 url = url.replace(/\bwww\.\b/, "")
-url = url.split('/')
-if (url[3] === "") {
-  url = "https://proxitok.herokuapp.com"
-  location.href = url
-} 
-else {
-  url = "https://proxitok.herokuapp.com/video/" + url[5]
-  location.href = url
-}
+//url = url.split('/')
+
+location.href = url.replace("tiktok.com", instance)
+
+//if (url[3] === "") {
+//  url = "https://proxitok.pabloferreiro.es"
+//  location.href = url
+//} 
+//else {
+//  url = "https://proxitok.pabloferreiro.es/video/" + url[5]
+//  location.href = url
+//}
