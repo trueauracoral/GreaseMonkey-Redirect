@@ -8,7 +8,7 @@ There are many awful websites on the internet. That's why there have been many p
 
 # Projects
 
-*WARNING: Some of these projects are hosted on Github, which uses proprietary JavaScript. Fortunately, it is not necessary to view repositories, so you can disable it.*
+<!-- *WARNING: Some of these projects are hosted on Github, which uses proprietary JavaScript. Fortunately, it is not necessary to view repositories, so you can disable it.* -->
 
 - [Nitter](https://github.com/zedeus/nitter), a libre frontend to Twitter.
 - [Invidious](https://github.com/iv-org/invidious), a libre frontend to Youtube.
@@ -90,6 +90,10 @@ url = url.replace(/\bwww\.\b/, "")
 url = url.replace("youtube.com","vid.puffyan.us")
 location.href = url
 ```
+
+# Scripts that don't work anymore
+## Instagram
+`instagram-bibliogram.user.js` no longer works. Instagram is taking down frontends such as bibliogram for a variety of reasons. Take a look at this [article](https://cadence.moe/blog/2022-09-01-discontinuing-bibliogram) by the bibliogram developer. Other frontends such as [dumpor](https://dumpor.com) and [imginn](https://imginn.org) work more frequently but often break. They also have problems with playing videos. So for the time being use `instagram-bibliogram.user.js` with caution.
 
 # Similar projects
 - https://codeberg.org/izzy/userscripts/src/branch/master/yt2invidio.user.js <br>
