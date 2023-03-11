@@ -6,7 +6,7 @@ This is a collection of user created GreaseMonkey scripts that will convert priv
 
 There are many awful websites on the internet. That's why there have been many projects that allow us to still make use of them but in a more privacy respecting way. Also it gives you the ability to customize to your heart's content.
 
-# Projects
+# Frontends Supported
 
 <!-- *WARNING: Some of these projects are hosted on Github, which uses proprietary JavaScript. Fortunately, it is not necessary to view repositories, so you can disable it.* -->
 
@@ -19,6 +19,7 @@ There are many awful websites on the internet. That's why there have been many p
 - [ProxiTok](https://github.com/pablouser1/ProxiTok), a libre frontend to tiktok.
 - [Rimgo](https://codeberg.org/video-prize-ranch/rimgo), a libre frontend to imgur.
 - [Scribe](https://git.sr.ht/~edwardloveall/scribe), a libre frontend to medium websites.
+- [Simply](https://git.sr.ht/~metalune/simplytranslate_web) Translate, a libre frontend to Google Translate and other translation SaaSS.
 - [Quetre](https://github.com/zyachel/quetre), a libre frontend to quora.
 
 # Scripts here?
