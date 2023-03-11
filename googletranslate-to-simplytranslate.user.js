@@ -30,5 +30,5 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 // ==/UserScript==
 url = location.href
 url = url.replace(/\bwww\.\b/, "")
-url = url.replace("translate.google.com","simplytranslate.org")
+url = url.replace("translate.google.com","translate.northboot.xyz")
 location.href = url
