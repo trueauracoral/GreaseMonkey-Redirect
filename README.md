@@ -104,7 +104,8 @@ Very well coded **MEGA** script for redirecting different websites to libre fron
 
 ## **Not** GreaseMonkey
 - https://github.com/libredirect/libredirect <br>
-A fork of Privacy-Redirect (seemingly dead project), for firefox browsers which supports a lot more proxy sites and is very active.
+A fork of [Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect), which supports a lot more frontends and is very active.
+- https://github.com/einaregilsson/Redirector
 
 # Contribute
 I hope those that contribute and help maintain these scripts have great times with them. As the web changes, so should we.
