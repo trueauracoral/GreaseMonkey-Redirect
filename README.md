@@ -15,6 +15,7 @@ There are many awful websites on the internet. That's why there have been many p
 - [Teddit](https://codeberg.org/teddit/teddit), a libre frontend to Reddit.
 - [Librarian](https://codeberg.org/librarian/librarian), a libre frontend to Odysee.
 - [Bibliogram](https://sr.ht/~cadence/bibliogram/), a libre frontend to Instagram. **(Bibliogram is abandoned)**
+- [BiblioReads](https://codeberg.org/nesaku/BiblioReads), a libre frontend to Goodreads.
 - [SimplyTranslate](https://codeberg.org/SimpleWeb/SimplyTranslate-Web), a libre frontend to Google Translate and other translation SaaSS.
 - [ProxiTok](https://github.com/pablouser1/ProxiTok), a libre frontend to TikTok.
 - [Rimgo](https://codeberg.org/video-prize-ranch/rimgo), a libre frontend to Imgur.
