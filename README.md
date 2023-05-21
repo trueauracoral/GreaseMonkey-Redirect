@@ -11,7 +11,7 @@ There are many awful websites on the internet. That's why there have been many p
 <!-- *WARNING: Some of these projects are hosted on Github, which uses proprietary JavaScript. Fortunately, it is not necessary to view repositories, so you can disable it.* -->
 
 - [Nitter](https://github.com/zedeus/nitter), a libre frontend to Twitter.
-- [Invidious](https://github.com/iv-org/invidious), a libre frontend to Youtube.
+- [Invidious](https://github.com/iv-org/invidious), a libre frontend to YouTube.
 - [Teddit](https://codeberg.org/teddit/teddit), a libre frontend to Reddit.
 - [Librarian](https://codeberg.org/librarian/librarian), a libre frontend to Odysee.
 - [Bibliogram](https://sr.ht/~cadence/bibliogram/), a libre frontend to Instagram. **(Bibliogram is abandoned)**
@@ -27,7 +27,7 @@ These aim to acheive what something like Privacy-Redirect/Libredirect does. All 
 
 You could be using Privacy-Redirect/Libredirect. But this is a fun DIY (do-it-yourself) project to make fun of bad privacy disrespecting websites.
 
-**Note:** This script will work the best in terms of privacy if using a plugin such as Ublock-Origin to block all JavaScript on privacy disrespecting websites.
+**Note:** This script will work the best in terms of privacy if using a plugin such as uBlock Origin to block all JavaScript on privacy disrespecting websites.
 
 # WARNING!
 These scripts will may break sometimes because instances of these websites will break from user load or other issues causing servers to crash. This is why these websites have multiple instances. If an instance breaks you can easily replace it with a different instance.
@@ -113,3 +113,8 @@ I hope those that contribute and help maintain these scripts have great times wi
 # Contact me
 - Email: zortazert@matthewevan.xyz
 - Matrix: @trueauracoral:tchncs.de
+
+# Legal notice
+This repository is not affiliated with any of the mentioned companies. Trademarks belong to their respective owners.
+
+Twitter is a trademark of Twitter Inc. YouTube and Google Translate are trademarks of Google LLC. Reddit is a trademark of Reddit Inc. Odysee is a trademark of Odysee, Inc. Instagram is a trademark of Meta Platforms. Goodreads is a trademark of Amazon Technologies, Inc. TikTok is a trademark of Bytedance Ltd. Imgur is a trademark of IMGUR, INC. Medium is a trademark of A Medium Corporation. Quora is a trademark of Quora Inc.
