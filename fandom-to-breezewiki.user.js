@@ -27,11 +27,25 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 // @namespace   Zera's breezewiki redirection script
 // @version     1
 // @grant       none
-// @include     *fandom.com*
+// @match       https://*.fandom.com/*
 // @grant       none
 // @run-at      document-start
 // ==/UserScript==
-BREEZEWIKI_INSTANCE = "breezewiki.com"
+BREEZEWIKI_INSTANCE = "antifandom.com"
+//fetch('https://corsproxy.io/?https://docs.breezewiki.com/files/instances.json', {
+//    method: 'GET',
+//    headers: {
+//        'Accept': 'application/json',
+//    },
+//})
+//.then(response => response.json())
+//.then((data) => {
+//    let list = []
+//    data.forEach(function (result) {
+//        list.push(result.instance)
+//    })
+//});
+//console.log(list)
 
 url = location.href
 url = url.replace(/\bwww\.\b/, "")
