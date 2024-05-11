@@ -2,6 +2,8 @@
 
 This is a collection of user created GreaseMonkey scripts that will convert privacy disrespecting websites to FLOSS frontends.
 
+There is also included some of my own GreaseMonkey scripts here as well. See the **Personal Scripts** section.
+
 # Why?
 
 There are many awful websites on the internet. That's why there have been many projects that allow us to still make use of them but in a more privacy respecting way. Also it gives you the ability to customize to your heart's content.
@@ -16,11 +18,13 @@ There are many awful websites on the internet. That's why there have been many p
 - [Librarian](https://codeberg.org/librarian/librarian), a libre frontend to Odysee.
 - [Bibliogram](https://sr.ht/~cadence/bibliogram/), a libre frontend to Instagram. **(Bibliogram is abandoned)**
 - [BiblioReads](https://codeberg.org/nesaku/BiblioReads), a libre frontend to Goodreads.
-- [SimplyTranslate](https://codeberg.org/SimpleWeb/SimplyTranslate-Web), a libre frontend to Google Translate and other translation SaaSS.
+- [SimplyTranslate](https://codeberg.org/ManeraKai/simplytranslate), a libre frontend to Google Translate and other translation SaaSS.
+- [LingvaTranslate](https://github.com/thedaviddelta/lingva-translate), a libre frontend to Google Translate.
 - [ProxiTok](https://github.com/pablouser1/ProxiTok), a libre frontend to TikTok.
 - [Rimgo](https://codeberg.org/video-prize-ranch/rimgo), a libre frontend to Imgur.
 - [Scribe](https://git.sr.ht/~edwardloveall/scribe), a libre frontend to Medium websites.
 - [Quetre](https://github.com/zyachel/quetre), a libre frontend to Quora.
+- [Libremdb](https://github.com/zyachel/libremdb), a libre frontend to IMDB.
 
 # Scripts here?
 These aim to acheive what something like Privacy-Redirect/Libredirect does. All these do is change your URL's domain to a different one.
@@ -33,7 +37,7 @@ You could be using Privacy-Redirect/Libredirect. But this is a fun DIY (do-it-yo
 These scripts will may break sometimes because instances of these websites will break from user load or other issues causing servers to crash. This is why these websites have multiple instances. If an instance breaks you can easily replace it with a different instance.
 
 ## NOT TO FEAR! Just modify!
-These scripts don't require coding knowledge to understand what they do. However knowing a bit of JavaScript or maybe python can help. 
+These scripts don't require coding knowledge to understand what they do. However knowing a bit of JavaScript or maybe python can help.
 This is a script example to show you how many of these scripts work. Some scripts might be more complicated than this example.
 
 1. Description of what the script does
@@ -102,16 +106,27 @@ Very well coded **MEGA** script for redirecting different websites to libre fron
 	- https://codeberg.org/ltGuillaume/yt2invidio/src/branch/master/yt2invidio.user.js <br>
 	Forked version where redirections are done automaticly.
 
-## **Not** GreaseMonkey
+## **Not** GreaseMonkey, Great Redirection Projects
 - https://github.com/libredirect/libredirect <br>
 A fork of [Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect), which supports a lot more frontends and is very active.
 - https://github.com/einaregilsson/Redirector
+
+# Personal Scripts
+These are seperate from the redirection scripts.
+- `Deviant_Art_Age_Bypass.user.js`
+    - Let's you bypass Deviant Art's age restrictions and see some features without account
+- `github-pages.user.js`
+    - Gets the link for a github pages project and redirects you there on `Alt+g` I want to make this an extention one day. Github should have this feature. Codeberg implemented a simple link.
+- `YouTube_Distraction_Blocker.user.js`
+    - Blocks some youtube distractions/recomendations. Better extentions exist out there
+- `Percentage_Complete_myanimelist.user.js`
+    - Finds your Percentage complete of an anime on MyAnimeList
 
 # Contribute
 I hope those that contribute and help maintain these scripts have great times with them. As the web changes, so should we.
 
 # Contact me
-- Email: zortazert@matthewevan.xyz
+- Email: zortazert@gmail.com
 - Matrix: @trueauracoral:tchncs.de
 
 # Legal notice
